@@ -1,0 +1,30 @@
+# .NET project-specific ignores
+bin/
+obj/
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+build/
+bld/
+
+# Visual Studio files
+*.csproj
+*.vspscc
+*.vssscc
+
+# Other ignore files
+.DS_Store
+*.log
+nuget.config
+
+# Ignore secrets file
+secrets.json
